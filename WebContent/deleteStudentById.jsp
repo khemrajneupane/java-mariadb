@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Deleting student by id</title>
 <link type = "text/css" rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 	<div style="margin: 30px">
-			<h1>Enter student id to delete</h1>
+			<h1>Enter Student ID to Delete</h1>
 		<div class = "row">
 			
 				<form class = "form-control-plaintext col-md-6" action="studentList" method="GET">
@@ -20,7 +20,7 @@
 		
 			
 				<form class = "form-control-plaintext col-md-6" action="deleteStudentById" method="POST">
-				<button class="btn btn-primary" type="submit">Delete</button> 
+				<button class="btn btn-danger" type="button">Delete</button> 
 					<input type="text" name="id" placeholder = "enter id to delete"/>
 					
 				</form>
@@ -28,5 +28,6 @@
 		</div>
 	
 	</div>
+	<script type = "text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

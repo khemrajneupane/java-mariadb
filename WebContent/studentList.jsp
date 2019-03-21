@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Listing all activities related to student db</title>
 <link type = "text/css" rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
 				<button class="btn btn-primary" type="submit">AddStudents</button>
 			</form>
 			<form class = "form-control-plaintext col-sm-3" action="deleteStudentById.jsp" method="GET">
-				<button class="btn btn-primary" type="submit">DeleteById</button>
+				<button class="btn btn-danger" type="submit">DeleteById</button>
 			</form>
 			<form class = "form-control-plaintext col-sm-3" action="searchById.jsp" method="GET">
 				<button class="btn btn-primary" type="submit">SearchById</button>
@@ -69,6 +69,6 @@
 		</c:if>
 		</div>
 	</div>	 
-		
+		<script type = "text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

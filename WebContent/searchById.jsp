@@ -58,17 +58,19 @@
 				<h1>Id is required!</h1>
 			</c:if>
 	
+			<form class = "form-control plaintext" action="studentList" method="GET">
+					<button class="btn btn-primary col-md-3 mb-3" type="submit">ShowAllStudents</button>
+			</form>	
 	
 			<form class = "form-control plaintext" action="searchById" method="GET">
 				<button class="btn btn-primary col-md-3 mb-3" type="submit">searchById</button>
 					<input type="text" name="id" placeholder= "enter id to search record"/>
 			</form>
 					
-			<form class = "form-control plaintext" action="studentList" method="GET">
-					<button class="btn btn-primary col-md-3 mb-3" type="submit">ShowAllStudents</button>
-			</form>
+
 		
 		</div>
+		<script type = "text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 		
