@@ -12,8 +12,8 @@ package CRUDstudentDatabaseMariaDB;
 public class ConnectionParameters {
 	
 	// Set your own MariaDB username and password here!
-	public static final String username = "a1800727"; 
-	public static final String password = "vuGEYy52o";
+	public static final String username = "xxxxx"; 
+	public static final String password = "xxxxx";
 	
 	
 	// Do NOT change any of the settings below!
